@@ -1,0 +1,76 @@
+ @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500&display=swap');
+:root{
+	--color-contenido:#fff;
+	--color-titulos:#222;
+	--color-primary:#000;
+	--color-negro:#000;
+	--color-gris:#f4f4f4;
+	--color-hover-menu:#2293D7;
+}
+
+body{
+	font-family: 'Orbitron', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 16px;
+	color: var(--color-contenido);
+	line-height: 1.7;
+}
+header{
+	background-color: rgba(0,0,0,1.00);
+	padding: 20px;
+}
+#hero{
+	background-image: url("../img/hero_background.png");
+	background-position: top center;
+	background-size: cover;
+	background-color: rgba(0,0,0,0.40);
+  	background-blend-mode: multiply;
+	padding: 25% 0;
+	text-align: right;
+}
+
+#hero h2{
+	color: var(--color-hover-menu);
+	font-weight: 500;
+	font-size: 20px;
+}
+#hero h1{
+	font-weight: 500;
+	font-size: 100px;
+}
+#about{
+	background-color:#000000;
+	text-align: center
+}
+#servicios{
+	background-color:#000000;
+	padding:100px;
+}
+#trabajos{
+	background-color:#000000;
+	text-align: center;
+}
+#contacto{
+	background-color:#000000;
+	text-align: center;	
+	padding: 100px;
+	color: rgba(255,255,255,1.00);
+}
+
+#lista-seguir a{
+	text-align: center;
+	font-size: 40px;
+	color:#f0f0f0;
+	background-color: #000000;
+	height: 60px;
+	width: 60px;
+	display: block;
+	border-radius: 8px;
+}
+
+footer{
+	background-color:#000000;
+	text-align: center;	
+	padding: 20px;
+}
+	
