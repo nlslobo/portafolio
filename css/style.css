@@ -1,16 +1,15 @@
- @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;1,100;1,200;1,300&family=Special+Elite&display=swap');
 :root{
 	--color-contenido:#fff;
 	--color-titulos:#222;
 	--color-primary:#000;
 	--color-negro:#000;
 	--color-gris:#f4f4f4;
-	--color-hover-menu:#2293D7;
+	--color-hover-menu:#8E0001;
 }
 
 body{
-	font-family: 'Orbitron', sans-serif;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'IBM Plex Mono', monospace;
 	font-size: 16px;
 	color: var(--color-contenido);
 	line-height: 1.7;
@@ -19,28 +18,38 @@ header{
 	background-color: rgba(0,0,0,1.00);
 	padding: 20px;
 }
+.ig{
+	font-size: 30px;
+}
 #hero{
-	background-image: url("../img/hero_background.png");
+	background-image: url("../img/1x/background_hero.png");
 	background-position: top center;
 	background-size: cover;
 	background-color: rgba(0,0,0,0.40);
   	background-blend-mode: multiply;
 	padding: 25% 0;
-	text-align: right;
+	text-align: center;
 }
 
 #hero h2{
 	color: var(--color-hover-menu);
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 20px;
 }
 #hero h1{
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 100px;
 }
 #about{
 	background-color:#000000;
 	text-align: center
+}
+.title{
+	color: var(--color-hover-menu);
+	font-weight: 600;
+	font-size: 50px;
+	padding: 20px;
+	text-align: center;
 }
 #servicios{
 	background-color:#000000;
@@ -67,10 +76,35 @@ header{
 	display: block;
 	border-radius: 8px;
 }
-
+#servicios{
+	text-align: center;
+}
+#servicios h4{
+	font-weight: bolder;
+	color: var(--color-hover-menu);
+}
+.icon{
+	font-size: 60px;
+	
+}
+#trabajos{
+	padding: 20px;
+}
+.btn-light{
+	padding: 15px;
+}
+.boton{
+	padding: 30px;
+}
+#contacto{
+	padding: 40px;
+}
+.social-media{
+	padding: 50px
+}
 footer{
 	background-color:#000000;
 	text-align: center;	
 	padding: 20px;
 }
-	
+
